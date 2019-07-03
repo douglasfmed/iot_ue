@@ -1,0 +1,3 @@
+Mostrar plantas associadas com usuário específico:
+
+SELECT * FROM plantas WHERE id = (SELECT id_planta FROM acesso_plantas_usuarios INNER JOIN usuarios ON usuarios.id = acesso_plantas_usuarios.id_usuario)
