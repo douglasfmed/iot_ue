@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: 29-Jun-2019 às 21:25
+-- Generation Time: 12-Jul-2019 às 13:02
 -- Versão do servidor: 5.7.24
 -- versão do PHP: 7.2.14
 
@@ -36,14 +36,15 @@ CREATE TABLE IF NOT EXISTS `acesso_plantas_usuarios` (
   PRIMARY KEY (`id`),
   KEY `id_planta` (`id_planta`) USING BTREE,
   KEY `fk_acesso_usuarios` (`id_usuario`)
-) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=latin1;
 
 --
 -- Extraindo dados da tabela `acesso_plantas_usuarios`
 --
 
 INSERT INTO `acesso_plantas_usuarios` (`id`, `id_planta`, `id_usuario`) VALUES
-(17, 10, 25);
+(17, 10, 25),
+(18, 6, 25);
 
 -- --------------------------------------------------------
 
@@ -59,7 +60,7 @@ CREATE TABLE IF NOT EXISTS `monitoramento` (
   `id_variavel` int(11) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `fk_variaveis` (`id_variavel`)
-) ENGINE=InnoDB AUTO_INCREMENT=459 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=460 DEFAULT CHARSET=latin1;
 
 --
 -- Extraindo dados da tabela `monitoramento`
@@ -81,7 +82,8 @@ INSERT INTO `monitoramento` (`id`, `valor`, `data`, `id_variavel`) VALUES
 (455, 100, '2019-06-25 09:05:00', 6),
 (456, 100, '2019-06-24 09:05:00', 6),
 (457, 10.5, '2019-06-25 14:37:00', 7),
-(458, 20, '2019-06-25 14:38:00', 7);
+(458, 20, '2019-06-25 14:38:00', 7),
+(459, 10.5, '2019-07-03 09:05:00', 8);
 
 -- --------------------------------------------------------
 
@@ -155,7 +157,7 @@ CREATE TABLE IF NOT EXISTS `variaveis` (
 --
 
 INSERT INTO `variaveis` (`id`, `nome`, `descricao`, `unidade`, `id_planta`) VALUES
-(6, 'temperatura_modulo_FV', 'Temperatura do mÃ³dulo FV', 'Â°C', 10),
+(6, 'temperatura', 'Temperatura do mÃ³dulo FV', 'Â°C', 10),
 (7, 'umidade', 'Umidade do ar', 'g/Kg', 10),
 (8, 'teste', 'Testando o sistema', 'm/s', 6);
 
