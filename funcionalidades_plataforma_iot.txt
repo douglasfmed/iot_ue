@@ -1,0 +1,24 @@
+Funcionalidades:
+
+- Cadastrar usuários (admin e colaborador)
+- Gerenciar usuários (editar e apagar)
+- Cadastrar plantas (só admin)
+- Gerenciar plantas (só admin)
+- Visualizar todas as plantas (verifica permissões de acesso)
+- Associar plantas com usuários (só admin)
+- Criar variáveis (verifica permissões de acesso, seleciona plantas)
+- Gerenciar variáveis (verifica permissões de acesso, seleciona plantas)
+
+Funcionalidades do colaborador:
+
+- Criar variáveis de medição
+	- Verifica plantas com permissão de acesso
+	- Seleciona variáveis associadas a estas plantas
+- Gerenciar variáveis de medição
+	- Verifica plantas com permissão de acesso
+	- Seleciona variáveis associadas a estas plantas
+- Visualizar todas as plantas
+	- Verifica plantas com permissão de acesso
+	- Seleciona plantas 
+- Editar plantas
+
