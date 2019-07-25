@@ -57,7 +57,7 @@
 
 <?php
 if(!isset($_GET['p'])){
-	$pagina = "inicio";
+	$pagina = "plantas";
 } else{
 	$pagina = $_GET['p'];
 }

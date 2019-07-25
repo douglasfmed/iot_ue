@@ -48,7 +48,7 @@ if($acao == 'gerenciar'){
               <thead>
                 <tr>
                   <th> Nome do usuário </th>
-                  <th> E-mail</th>
+                  <!--<th> E-mail</th>-->
                   <th> Nível de acesso</th>
                   <th class="td-actions"> Ações </th>
                 </tr>
@@ -78,7 +78,7 @@ if($acao == 'gerenciar'){
               ?>
               <tr>
                 <td><?php echo $nome_usuario; ?></td>
-                <td><?php echo $email_usuario; ?></td>
+                <!--<td><?php echo $email_usuario; ?></td>-->
                 <td><?php echo $nivel_usuario; ?></td>
                 <td class="td-actions">
                 <center>

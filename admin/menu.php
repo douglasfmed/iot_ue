@@ -10,7 +10,6 @@
   <div class="subnavbar-inner">
     <div class="container">
       <ul class="mainnav">
-        <li <?php if($pagina == 'inicio'){ echo "class=\"active\"";} ?>><a href="index.php"><i class="icon-dashboard"></i><span>Início</span> </a> </li>
         <li <?php if($pagina == 'plantas' || $pagina == 'plantas_cadastrar' || $pagina == 'plantas_gerenciar' || $pagina == 'associar_usuarios'){ echo "class=\"dropdown active\"";} else{ echo "class=\"dropdown\""; } ?>><a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-bar-chart"></i><span>Plantas</span> <b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li><a href="index.php?p=plantas_cadastrar"><i class="icon-plus-sign"></i> Cadastrar</a></li>
