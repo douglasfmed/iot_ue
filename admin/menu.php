@@ -30,6 +30,7 @@
           <ul class="dropdown-menu">
             <li><a href="index.php?p=usuarios_cadastrar"><i class="icon-plus-sign"></i> Cadastrar</a></li>
             <li><a href="index.php?p=usuarios_gerenciar"><i class="icon-pencil"></i> Gerenciar</a></li>
+            <li><a href="index.php?p=usuarios_grupos" class="disabled"><i class="icon-sitemap"></i> Grupos</a></li>
           </ul>
         </li>
       </ul>
