@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: 12-Jul-2019 às 13:02
+-- Generation Time: 29-Jul-2019 às 13:35
 -- Versão do servidor: 5.7.24
 -- versão do PHP: 7.2.14
 
@@ -109,7 +109,7 @@ CREATE TABLE IF NOT EXISTS `plantas` (
 
 INSERT INTO `plantas` (`id`, `nome`, `localizacao`, `inicio_operacao`, `responsavel`, `imagem`, `codigo_google_maps`) VALUES
 (6, 'Jardim BotÃ¢nico 1', 'JoÃ£o Pessoa', '2019-06-15', 'JoÃ£o', '15607903215d07c5311faee.jpg', '<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.892371433062!2d-34.848778135680526!3d-7.1384432720005435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7acc2b7aeaa04d1%3A0xf78352c3214e6a1f!2sUniversidade+Federal+da+Para%C3%ADba!5e0!3m2!1spt-BR!2sbr!4v1560625274081!5m2!1spt-BR!2sbr\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>'),
-(10, 'JoÃ£o Pessoa 2', 'JoÃ£o Pessoa - PB', '2019-06-15', 'dasd', '15607902685d07c4fcc371c.jpeg', '<iframe width=\"500\" height=\"400\" frameborder=\"0\" src=\"https://www.bing.com/maps/embed?h=400&w=500&cp=-7.117224466097582~-34.87964620313335&lvl=13&typ=s&sty=r&src=SHELL&FORM=MBEDV8\" scrolling=\"no\">\r\n     </iframe>');
+(10, 'UFPB', 'JoÃ£o Pessoa - PB', '2019-07-25', 'Douglas e VinÃ­cius', '15640857875d3a0e1b3a483.jpg', '<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.901703433388!2d-34.84774008568065!3d-7.137364771988785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7acc2b7aeaa04d1%3A0xf78352c3214e6a1f!2sUniversidade+Federal+da+Para%C3%ADba!5e0!3m2!1spt-BR!2sbr!4v1564085770243!5m2!1spt-BR!2sbr\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>');
 
 -- --------------------------------------------------------
 
