@@ -67,7 +67,10 @@ document.addEventListener('DOMContentLoaded', function () {
           $exec_monit = mysqli_query($conn, $query_monit);
           while($resultado_monit = mysqli_fetch_array($exec_monit)){
             $data_monit = $resultado_monit['data'];
-            echo "'".$data_monit."',";
+            $data_monit_formatada = new DateTime($data_monit);
+           //echo $data_formatada->format('d/m/Y');
+           //echo "'".$data_monit."',";
+           echo "'".$data_monit_formatada->format('H:i:s')."',";
           }
           ?>]
         },
